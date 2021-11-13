@@ -19,3 +19,5 @@ function giphy(){
 function emote(){
     gif.innerHTML = '&#128522'
 }
+
+
