@@ -18,19 +18,20 @@
         <li><a href="login.html">Log In</a></li>
     </ul>
 
-    <form>  
+    <form method="post" id="singUp" action="mailto:jhb.haubert@live.com">  
         <fieldset id="user"><legend><strong>Create new account</strong></legend>
             <p><label for="boxName">Name:</label><input type="text" name="textName" id="boxName" size="25" maxlength="40" placeholder="Full name"></p>
             <p><label for="boxMail">Email:</label><input type="email" name="mail" id="boxMail" size="25" maxlength="40" placeholder="Email address"></p>
             <p><label for="boxPassword">Password:</label><input type="password" name="password" id="boxPassword" size="21" maxlength="20" placeholder="20 digits"></p>
-            <fieldset><legend><strong>Gender</strong></legend>
+            <p><label for="boxrPassword">Repeat Password:</label><input type="password" name="rPassword" id="boxrPassword" size="18" maxlength="20" placeholder="20 digits"></p>
+            <fieldset id="gend"><legend><strong>Gender</strong></legend>
                 <input type="radio" name="gender" id="male"/><label for="male">Male</label>
                 <input type="radio" name="gender" id="female"/><label for="female">Female</label>
                 </fieldset>
              <p><label for="boxDate">Date of birth:</label><input type="date" name="birth" id="boxDate"></p>
         </fieldset>
         <fieldset id="address"><legend><strong>Add your address</strong></legend>
-            <p>Country:<select>
+            <p><label for="country">Country:</label><select name="country" id="country">
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
                 <option value="AL">Albania</option>
@@ -284,7 +285,7 @@
             <p><label for="boxPost">Postcode:</label><input type="text" name="post" id="boxPost" size="25" maxlength="40" placeholder="Eircode"></p>
             <p><label for="boxAddress1">Address line 1:</label><input type="text" name="address1" id="boxAddress1" size="42" maxlength="40" placeholder="Street and number"></p>
             <p><label for="boxAddress2">Address line 2(optional):</label><input type="text" name="address2" id="boxAddress2" size="30" maxlength="40" placeholder="Additional address"></p>
-            <p><label>Town/City:</label><input type="text" name="address2" id="boxAddress2" size="48" maxlength="40" placeholder="Town or city"></p>
+            <p><label for="boxCity">Town/City:</label><input type="text" name="address2" id="boxCity" size="48" maxlength="40" placeholder="Town or city"></p>
             <p><label>County:<select name="county">
                 <option value="antrim">Antrim</option>
                 <option value="armagh">Armagh</option>
@@ -319,8 +320,9 @@
                 <option value="wexford">Wexford</option>
                 <option value="wicklow">Wicklow</option>
             </select></label></p>
-        </fieldset> 
-    </form>
+            <button value="Register">Register</button>
+        </fieldset>
+         </form>
 
 
 <footer id="bottom">

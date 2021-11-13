@@ -28,7 +28,7 @@ ul#photos li {
     margin: 10px;
     border: 3px solid white;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
 }
 
@@ -121,7 +121,7 @@ nav#menu ul{
     transition: 2s;
 }
 
-nav#menu ul:hover{
+nav#menu ul#navigation:hover{
     background-color:rgba(206, 195, 195, 0.486);
 }
 
