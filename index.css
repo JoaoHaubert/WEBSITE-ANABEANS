@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'zen';
+    src: url(_fonts/ZenKurenaido-Regular.ttf);
+}
+
+body{
+    font: normal 16pt 'zen';
+    color: white;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+
+    
+}
+
+
+
+figcaption{
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.226);
+    padding: 10px;
+    
+}
+
+figcaption h1{
+    border-radius: 50%;
+    transition: 2s;
+    align-items: center;
+
+    
+}
+
+figcaption h1:hover{
+    background-color: rgba(148, 144, 127, 0.404);
+   
+    
+
+}
+
+section {
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 7px rgba(255, 253, 253, 0.226);
+}
+
+section h3{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+}
+
+
+nav#menu{
+    align-items: center;
+    display: block;
+}
+
+nav#menu ul{
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+nav#menu ul:hover{
+    background-color:rgba(206, 195, 195, 0.486);
+}
+
+nav#menu li{
+    font-family: 'zen';
+    display: inline-flex;
+    padding: 5px 0.5em;
+    background-color: rgba(92, 83, 83, 0.747);
+    border-radius: 15px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.719);
+    transition: 1s;
+    align-items: center;
+    
+}
+
+nav#menu li:hover{
+    background-color: rgb(148, 144, 127);
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu a:hover{
+    color: rgb(15, 29, 32);
+    text-decoration: underline;
+}
+
+footer {
+    color:white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+footer#bottom a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+footer#bottom a:hover{
+    text-decoration: underline;
+    color:rgb(148, 144, 127);
+}
+

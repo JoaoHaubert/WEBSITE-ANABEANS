@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'zen';
+    src: url(_fonts/ZenKurenaido-Regular.ttf);
+}
+
+body {
+    background: rgb(0, 0, 0);
+    font: normal 16pt 'zen';
+    text-align: center;
+ 
+}
+
+
+
+
+
+section{
+    background: white;
+    border-radius: 15px;
+    padding:20px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 7px rgba(148, 142, 142, 0.61);
+    text-align: center;
+}
+
+section h1{
+    text-shadow:4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+table#tablespec{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+
+table#tablespec:hover{
+    background-color: rgba(148, 144, 127, 0.404);
+}
+
+table#tablespec td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+nav#menu{
+    align-items: center;
+    display: block;
+    top:0px;
+}
+
+nav#menu ul{
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+nav#menu ul:hover{
+    background-color:rgba(206, 195, 195, 0.486);
+}
+
+nav#menu li{
+    font-family: 'zen';
+    display: inline-flex;
+    padding: 5px 0.5em;
+    background-color: rgba(92, 83, 83, 0.747);
+    border-radius: 15px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.719);
+    transition: 1s;
+    align-items: center;
+    top:0px
+    
+}
+
+nav#menu li:hover{
+    background-color: rgb(148, 144, 127);
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu a:hover{
+    color: rgb(15, 29, 32);
+    text-decoration: underline;
+}
+
+section#sec h2{
+    font: normal 22px 'zen';
+    align-items: center;
+    
+}
+
+footer {
+    color:white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+footer#bottom a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+footer#bottom a:hover{
+    text-decoration: underline;
+    color:rgb(148, 144, 127);
+}
